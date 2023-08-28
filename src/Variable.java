@@ -51,7 +51,22 @@ public class Variable {
 		name1 = "Hi JAVA";
 		System.out.println("name1(재사용) = " + name1);
 		
-	}
+		
+		int a = 10;
+		int b = 20;
+		System.out.println(a + b);
+		System.out.println(a * b);
+		
+		// 변수명 안에 숫자를 넣고 더하기 빼기 곱하기 나누기 넣기
+		int number5 = 8;
+		int number6 = 9;
+		
+		System.out.println("number5 + number6 = " + (number5 + number6));
+		System.out.println("number5 * number6 = " + (number5 * number6));
+		System.out.println("number5 - number6 = " + (number5 - number6));
+		System.out.println("number6 / number5 = " + (number6 / number5));
+		System.out.println("number6 % number5 = " + (number6 % number5));
+		}
 
 }
 
@@ -59,4 +74,14 @@ public class Variable {
 /*
 1. 우클릭
 2. run on server
+*/
+
+/*
+ cd eclipse-workspace
+ cd 00_testProject
+ git status
+ git add .
+ git status
+ git commit -m "Variable int, String"
+ git push
 */
